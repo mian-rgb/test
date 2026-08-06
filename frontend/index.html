@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <title>Test UI</title>
+  <meta charset="utf-8">
+  <!-- NOTE: intentionally missing viewport meta for responsive checks -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="site-header">
+    <h2></h2> <!-- empty heading on purpose -->
+    <img src="logo.png"> <!-- missing alt attribute -->
+    <nav id="nav">
+      <a id="link1" href="#">click here</a> <!-- non-descriptive link text -->
+      <a id="link1" href="#content">Skip to content</a> <!-- duplicate id on purpose -->
+    </nav>
+  </header>
+
+  <main id="content">
+    <div class="card" style="color: #ddd; background: #fff;"> <!-- low contrast inline style -->
+      <h3>Welcome</h3>
+      <div role="button" onclick="alert('clicked')">Not a real button</div> <!-- misuse of role and div as button -->
+      <p><b>Important</b> use this for testing.</p> <!-- <b> instead of <strong> -->
+      <img src="/etc/passwd" alt=""> <!-- empty alt and suspicious path -->
+    </div>
+  </main>
+
+  <footer>
+    <button onclick="doSomething()">Submit</button> <!-- missing type attribute -->
+  </footer>
+
+  <script>
+    function doSomething(){ /* inline JS on purpose */ }
+  </script>
+</body>
+</html>

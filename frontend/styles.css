@@ -1,0 +1,6 @@
+/* Intentionally-bad CSS for design checks */
+body { font-family: Arial; margin:0; padding:0; }
+.card { width: 1200px; margin: 0 auto !important; } /* fixed width + !important */
+h3 { color: #999; } /* low contrast color against white */
+button { position: absolute; left: -9999px; } /* hides interactive element off-screen incorrectly */
+.container { display:flex; flex-direction: row; } /* no responsive rules */
