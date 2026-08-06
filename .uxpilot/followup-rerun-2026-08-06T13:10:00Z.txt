@@ -1,0 +1,5 @@
+Follow-up commit to retrigger review
+
+This file was added to trigger a new UXPilot review run after previous analysis.
+
+Timestamp: 2026-08-06T13:10:00Z
