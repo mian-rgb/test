@@ -1,0 +1,3 @@
+# Intentionally pinned vulnerable dependencies for scanner detection
+flask==0.12.3
+pyyaml==3.13

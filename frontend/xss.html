@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <body>
+    <div id="content"></div>
+    <script>
+      // BAD: inserting user content directly -> XSS
+      var user = location.search.substring(1);
+      document.getElementById('content').innerHTML = user;
+    </script>
+  </body>
+</html>
