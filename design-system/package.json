@@ -1,0 +1,9 @@
+{
+  "name": "@mian-rgb/design-system",
+  "version": "0.1.0",
+  "description": "Minimal design system with tokens and vanilla Web Components for UXP",
+  "main": "index.js",
+  "type": "module",
+  "author": "mian-rgb",
+  "license": "MIT"
+}
