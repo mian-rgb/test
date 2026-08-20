@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --color-primary: #0ea5a4;
+  --color-on-primary: #ffffff;
+  --color-secondary: #7c3aed;
+  --color-on-secondary: #ffffff;
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+
+  --color-neutral-100: #111827;
+  --color-neutral-80: #374151;
+  --color-neutral-60: #6b7280;
+  --color-neutral-40: #9ca3af;
+  --color-neutral-20: #d1d5db;
+
+  /* Typography */
+  --font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --line-height-sm: 1.25;
+  --line-height-md: 1.5;
+  --line-height-lg: 1.75;
+}
+
+/* Utility tokens for button sizes */
+:root {
+  --ds-button-padding-xs: 6px 10px;
+  --ds-button-padding-sm: 8px 12px;
+  --ds-button-padding-md: 10px 16px;
+  --ds-button-padding-lg: 14px 20px;
+  --ds-border-radius: 8px;
+}
