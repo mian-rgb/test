@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "primary": "#0ea5a4",
+    "onPrimary": "#ffffff",
+    "secondary": "#7c3aed",
+    "onSecondary": "#ffffff",
+    "background": "#ffffff",
+    "surface": "#f8fafc",
+    "neutral-100": "#111827",
+    "neutral-80": "#374151",
+    "neutral-60": "#6b7280",
+    "neutral-40": "#9ca3af",
+    "neutral-20": "#d1d5db"
+  }
+}
